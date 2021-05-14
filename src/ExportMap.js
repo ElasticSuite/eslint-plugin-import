@@ -528,6 +528,7 @@ ExportMap.parse = function (path, content, context) {
         case 'TypeAlias': // flowtype with babel-eslint parser
         case 'InterfaceDeclaration':
         case 'DeclareFunction':
+        case 'EnumDeclaration':
         case 'TSDeclareFunction':
         case 'TSEnumDeclaration':
         case 'TSTypeAliasDeclaration':
@@ -592,6 +593,7 @@ ExportMap.parse = function (path, content, context) {
         'ClassDeclaration',
         'TSDeclareFunction',
         'TSEnumDeclaration',
+        'EnumDeclaration',
         'TSTypeAliasDeclaration',
         'TSInterfaceDeclaration',
         'TSAbstractClassDeclaration',
