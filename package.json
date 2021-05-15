@@ -1,5 +1,5 @@
 {
-  "name": "eslint-plugin-import",
+  "name": "@elastic-internal/eslint-plugin-import",
   "version": "2.23.0",
   "description": "Import with sanity.",
   "engines": {
